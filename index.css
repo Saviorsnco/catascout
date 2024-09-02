@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing:border-box;
+    background-color: rgb(255, 255, 255);
+}
+/* header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    border-bottom: 1px solid #b6b1b1;
+} */
+li {
+    display:inline;
+}
+#action_bar {
+    align-items:center;
+    
+    border-style: hidden;
+    display:contents;
+    word-spacing: 30px;
+    font-size: 50px;
+}
+/* search bar */
+.search_box {
+    display:contents;
+    padding: 30%;
+    font-size: 40%;
+    cursor: pointer;
+    box-shadow: 0 10px 25px;
+ }
+ .search_box:hover input{
+    width: 100px;
+    
+ }
+ .search_box input{
+    width:0;
+    outline:none;
+    border:none;
+    font-weight: 500;
+    transition: 0.8s;
+    background:white;
+ }
+ .search_box a .fas {
+    color:black;
+    font-size: 18px;
+ }
+ #action_bar p {
+    border-radius: 20%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 75%;
+    font-size: 40%;
+}
+span {
+    font-size: 20px;
+}
+button  {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    /* text-decoration:solid; */
+    color: black;
+    border: none;
+}
+button :hover {
+   background-color: rgb(187, 164, 84);
+   border-radius: 5px;
+   
+}
+#profile {
+    font-size: 30px;
+   align-items: end;
+}
+/*
+#action_bar button {
+    border-radius: 20%;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 85%;
+} */
+
+.heading {
+    color: rgb(182, 54, 54);
+    font-size: 80px;
+    /* display:contents; */
+    text-align: center;
+}
+
+/* temperature */
+ .temperature {
+   
+    border-radius: 600%;
+ }
+#temperature_img {
+    margin-top: 60px;
+    text-align: center;
+}
+#temperature1 {
+    font-size: 25px;
+    border: none;
+}
+/* Cyclone */
+#cyclone {
+    margin-top: 60px;
+    text-align: center;
+}
+#cyclone1 {
+    font-size: 25px;
+    border: none;
+}
+
+/* Rainfall */
+#rainfall {
+    margin-top: 60px;
+    text-align: center;
+}
+#rainfall1 {
+    font-size: 25px;
+    border: none;
+}
+/*  Earthquack*/
+#earthquack {
+    margin-top: 60px;
+    text-align: center;
+}
+#earthquack1 {
+    font-size: 25px;
+    border: none;
+}
+
+/* floood */
+#flood {
+    margin-top: 60px;
+    text-align: center;
+}
+#flood1 {
+    font-size: 25px;
+    border: none;
+}
